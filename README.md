@@ -38,3 +38,18 @@ Clients wants to create a Road Accident Dashboard for year 2021 and 2022 so that
   * Raining with highwinds,rain with no highwinds as Rain
   * Snowing with highwinds,snow with no highwinds, fog and mist as snow
 - We used road conditions as another slicer, we merged flood or wet road into Wet, Frost and Snow as Ice and Dry category
+
+## Visualisation Insights
+- CY Casualties is 195.7k and there is reduction of 11.89% from previous year
+- CY Accidents is 144.4k and there is reduction of 11.7% from previous year
+- CY Fatal accidents is 1.5k and there is reduction of 35.57% from previous year
+- CY Serious accidents is 18.8k and there is reduction of 14.51% from previous year
+- CY Slight accidents is 124.1k and there is reduction of 10.84% from previous year
+- If we look at the kpi casualties by vehicles type we can clearly see the most no of accidents happens in car compare to other vehicles
+- 
+## Suggestion
+- People who are travelling in car should drive carefully because majority of accidents happened with cars
+
+
+
+
