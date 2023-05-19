@@ -46,9 +46,16 @@ Clients wants to create a Road Accident Dashboard for year 2021 and 2022 so that
 - CY Serious accidents is 18.8k and there is reduction of 14.51% from previous year
 - CY Slight accidents is 124.1k and there is reduction of 10.84% from previous year
 - If we look at the kpi casualties by vehicles type we can clearly see the most no of accidents happens in car compare to other vehicles
-- 
+- If we compare the month to month casualty rate, it has reduced compare to the previous year
+- Majority of the accidents have happened in single carriageway comapared to the other roadways
+- Majority of accidents happened in day time compared to night time.
+- Most of the casualty happened in urban area
+- By looking at the map we come to know that casualty rate is higher in cities like london, birmingham and manchester
+
 ## Suggestion
 - People who are travelling in car should drive carefully because majority of accidents happened with cars
+- People should drive carefully on single carriageway and avoid overtaking on single roads, govt should also work in making dual carriageway where accidents rate is lower
+- People living in urban area should drive slowly because population is more in this area
 
 
 
