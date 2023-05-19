@@ -10,7 +10,7 @@ Clients wants to create a Road Accident Dashboard for year 2021 and 2022 so that
 - Monthly trend showing comparison of casualties for Current Year and Previous Year
 - Casualties by Road Type for Current year
 - Current year casualties by Area/Location and by Day & Night
-- Total casualties and Toatal accidents by location
+- Total casualties and Total accidents by location
 
 ## Data Processing
 - We created calendar table where we extracted dates, year, month and then merged the table with main table
@@ -25,3 +25,16 @@ Clients wants to create a Road Accident Dashboard for year 2021 and 2022 so that
 - To calculate YOY growth we need to calculate previous year casualties by using SAMEPERIODLASTYEAR() which returns a set of data in the current selection from previous year
   * PY Casualties=Calculate(Sum(Data[Number_of_Casualties]),SAMEPERIODLASTYEAR(Calendar[Date]))
   * YoY Casualties=([CY Casualties]-[PY Casualties])/[PY Casualties]  
+- Similarly for accident severity KPI we have to calculate previous year accidents and year on year accidents using formula
+  * PY Accidents=Calculate(COUNT(Data[Accident Index],SAMPLEPERIODLASTYEAR(CALENDAR[Date]))
+  * YoY Accidents=([CY Accidents]-[PY Accidents])/[PY Accidents]
+- For making secondary KPI of number of vehicles we have merged-
+  * Motorcycle of 125cc, 50cc, 125-500cc, over 500cc, pedal cycle into one group named Bike
+  * Bus,coach with 17 or more seat, minibus into one category named Bus
+  * Car and taxi into one category named Car
+  * Other vehicles and horse ridder into other
+  * Goods of 3.5-7.5tonnes,goods of 7.5tonnes and below 3.5tonnes as Van
+- We used weather conditions as slicer we merged Fine with highwinds, Fine with no high winds as Fine
+  * Raining with highwinds,rain with no highwinds as Rain
+  * Snowing with highwinds,snow with no highwinds, fog and mist as snow
+- We used road conditions as another slicer, we merged flood or wet road into Wet, Frost and Snow as Ice and Dry category
